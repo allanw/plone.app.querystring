@@ -526,6 +526,7 @@
         <value key="enabled">True</value>
         <value key="sortable">True</value>
         <value key="operations">
+	    <element>plone.app.querystring.operation.selection.is</element>
             <element>plone.app.querystring.operation.selection.oneOf</element>
             <element>plone.app.querystring.operation.selection.all</element>
         </value>
