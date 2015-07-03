@@ -74,6 +74,10 @@ def _intEqual(context, row):
     return {row.index: {'query': values, }}
 
 
+def _all(context, row):
+    return {row.index: {'query': row.values, 'operator': 'and'}}
+
+
 def _isTrue(context, row):
     return {row.index: {'query': True, }}
 
