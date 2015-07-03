@@ -62,12 +62,12 @@
   </genericsetup:upgradeSteps>
 
 <genericsetup:upgradeSteps
-      source="5"
-      destination="6"
+      source="7"
+      destination="8"
       profile="plone.app.querystring:default">
     <genericsetup:upgradeDepends
         title="Change subject operations to selection.oneOf and selection.all"
-        import_profile="plone.app.querystring:upgrade_to_6"
+        import_profile="plone.app.querystring:upgrade_to_8"
         />
   </genericsetup:upgradeSteps>
 </configure>
